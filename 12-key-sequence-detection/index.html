@@ -7,9 +7,53 @@
   <script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
 </head>
 <body>
+  <div class="title">
+    <h2>Key Sequence Detectior</h2>
+  </div>
+  <div class="title">
+    <h3>secretCode  { vaibhav }</h3>
+  </div>
+  <div class="hero">
+    <h1 contenteditable>Press any key</h1>
+  </div>
+
+  <style>
+  html {
+    color: black;
+    font-family: sans-serif;
+  }
+
+  body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,74,255,1) 0%, rgba(0,212,255,1) 100%);
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  </style>
+
 <script>
 const pressed = [];
 const secretCode = 'vaibhav';
+const text = document.querySelector('h1');
 
 window.addEventListener('keyup', (e) => {
   console.log(e.key);
@@ -19,6 +63,7 @@ window.addEventListener('keyup', (e) => {
     console.log('DING DING!');
     cornify_add();
   }
+  text.textContent = pressed;
   console.log(pressed);
 });
 </script>

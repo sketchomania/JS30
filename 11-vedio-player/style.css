@@ -103,6 +103,7 @@ html {
     background: #ffc600;
     flex: 0;
     flex-basis: 50%;
+    border-radius: 0 20px 20px 0;
   }
   
   /* unholy css to style input type="range" */

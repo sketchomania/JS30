@@ -2,12 +2,12 @@
 
 # Javascript30
 
-I took this challenge to complete 30 projects with #Javascript30
-Completed solutions by me for the Javascript 30 Day Challange.
+> This is a JavaScript practice with [JavaScript30](https://javascript30.com/) by [Wes Bos](https://github.com/wesbos) without any frameworks, no compilers, no boilerplate, and no libraries.
 
-I will also encourage you to take this 30 day challenge from here at
-[https://Javascript30.com]
-(https://Javascript30.com)
+>I took this challenge to complete 30 projects with #Javascript30. This repo contains Completed solutions by me for the Javascript 30 Day Challange.
+
+- I will also encourage you to take this 30 day challenge from here at
+[https://Javascript30.com](https://Javascript30.com)
 
 ##  #Javascript30 Content 
 
@@ -71,7 +71,7 @@ I will also encourage you to take this 30 day challenge from here at
 - [source code]()
 - [project link]()
 
-11. vedio-player
+11. video-player
 - Links
 - [source code]()
 - [project link]()
@@ -155,7 +155,7 @@ I will also encourage you to take this 30 day challenge from here at
 - [source code]()
 - [project link]()
 
-28. vedio-speed-controler
+28. video-speed-controler
 - Links
 - [source code]()
 - [project link]()

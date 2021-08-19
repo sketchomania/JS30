@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
     font-size: 10px;
     background: #8E24AA;
-    background: linear-gradient(45deg,  #42a5f5 0%,#478ed1 50%,#0d47a1 100%);
+    background-image: radial-gradient(circle 360px at 50% 50%, rgba(54,96,172,1) 0%,rgba(46,53,89,1) 100.2% );
   }
   
   *, *:before, *:after {

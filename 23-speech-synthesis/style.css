@@ -60,20 +60,22 @@ html {
     padding: 10px;
     border: 0;
     font-size: 2rem;
-    background: #F7F7F7;
+    background: #eeeeee;
     outline: 0;
   }
   
   textarea {
     height: 20rem;
+    border-radius: 1rem;
   }
   
-  input[type="select"] {
-  
+  .voiceinator select {
+    border-radius: 1rem;
   }
   
   .voiceinator button {
     background: #ffc600;
+    border-radius: 1rem;
     border: 0;
     width: 49%;
     float: left;

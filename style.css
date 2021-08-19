@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Muli400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,74,255,1) 0%, rgba(0,212,255,1) 100%);
+    background-image: radial-gradient(circle 360px at 50% 50%, rgba(54,96,172,1) 0%,rgb(60, 72, 130) 100.2% );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mili', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    margin-bottom: 1.8rem;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(102, 98, 98);
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 0.8rem 0;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    color: rgb(255, 238, 0);
+    padding: 2px 18px;
+}
+
+a:hover {
+    border: none;
+    border-radius: 1rem;
+    color: rgb(255, 238, 0);
+    background-color: rgb(42, 209, 0);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-out;
+}
+
+footer {
+    background-color: rgb(40, 89, 179);
+    color: #f5f5f5;
+    padding: 0.8rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 2px 2px 8px rgb(41, 41, 41);
+}
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+    footer {
+      font-size: 55%;
+      justify-content: center;
+      width: 100%;
+    }
+  }
